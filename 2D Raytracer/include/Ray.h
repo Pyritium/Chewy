@@ -5,14 +5,15 @@
 #include <Vector.h>
 class Ray {
 public:
-	Vector3 origin;
-	Vector3 direction;
+	Vector2 origin;
+	Vector2 direction;
+	double length;
 
-	
-	Ray(Vector3& t_origin, Vector3& direction);
-	
-	void Cast()
+	Ray(Vector2& t_origin, Vector2& direction);
+
+	Vector2 Cast()
 	{
+		Vector2 dirnormal = direction.normalized();
 
 	}
 };

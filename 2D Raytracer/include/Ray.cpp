@@ -1,6 +1,6 @@
 #include "Ray.h"
 
-Ray::Ray(Vector3& t_origin, Vector3& t_direction)
+Ray::Ray(Vector2& t_origin, Vector2& t_direction)
 {
 	origin = t_origin;
 	direction = t_direction;
