@@ -35,10 +35,10 @@ public:
         return Vector2(X * other.X, Y * other.Y);
     }
 
-    Vector2 operator*(double s) const {
+    Vector2 operator*(float s) const {
         return { X * s, Y * s };
     }
-    Vector2 operator/(double s) const {
+    Vector2 operator/(float s) const {
         return { X / s, Y / s };
     }
 
@@ -86,7 +86,7 @@ public:
         return Vector3(X * other.X, Y * other.Y, Z * other.Z);
     }
 
-    Vector3 operator*(double s) const {
+    Vector3 operator*(float s) const {
         return { X * s, Y * s, Z * s };
     }
 
