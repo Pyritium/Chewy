@@ -1,6 +1,3 @@
-﻿  Ray.cpp
+﻿  Main.cpp
 C:\Users\joshn\Desktop\C++\2D Raytracer\2D Raytracer\include\Vector.h(54,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Vector.cpp
-C:\Users\joshn\Desktop\C++\2D Raytracer\2D Raytracer\include\Vector.h(54,29): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Generating Code...
   2D Raytracer.vcxproj -> C:\Users\joshn\Desktop\C++\2D Raytracer\Debug\2D Raytracer.exe

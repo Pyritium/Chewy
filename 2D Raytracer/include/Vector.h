@@ -50,7 +50,7 @@ public:
         return std::sqrt(dot(*this));
     }
 
-    Vector2 normalized() const {
+    Vector2 Normalized() const {
         return *this * (1.0 / length());
     }
 
@@ -94,11 +94,11 @@ public:
         return other;
     };
 
-    double dot(const Vector3& other) const {
+    double Dot(const Vector3& other) const {
         return X * other.X + Y * other.Y + Z * other.Z;
     }
 
-    Vector3 cross(const Vector3& other) const {
+    Vector3 Cross(const Vector3& other) const {
         return {
           Y * other.Z - Z * other.Y,
           Z * other.X - X * other.Z,

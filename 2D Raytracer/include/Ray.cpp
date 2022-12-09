@@ -1,7 +1,7 @@
 #include "Ray.h"
 
-Ray::Ray(Vector2& t_origin, Vector2& t_direction)
+Ray::Ray(Vector2& t_Origin, Vector2& t_Direction)
 {
-	origin = t_origin;
-	direction = t_direction;
+	Origin = t_Origin;
+	Direction = t_Direction;
 }
